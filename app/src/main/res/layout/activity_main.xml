@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F5F7FA"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HỆ THỐNG QUẢN LÝ THƯ VIỆN"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng số sách: 0 | Có sẵn: 0 | Đang mượn: 0"
+        android:textSize="14sp"
+        android:textColor="#37474F"
+        android:background="#E8EAF6"
+        android:padding="12dp"
+        android:gravity="center"
+        android:layout_marginBottom="28dp" />
+
+    <Button
+        android:id="@+id/btnBookManager"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="1. Quản lý danh sách sách"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnBorrowReturn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="2. Quản lý mượn &amp; trả sách"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="3. Tìm kiếm sách"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:letterSpacing="0.08"
+        android:rotation="-20"
+        android:rotationX="2"
+        android:rotationY="6"
+        android:text="Expense:Manag"
+        android:textColor="#86A689"
+        android:textSize="85sp"
+        android:textStyle="bold"
+        android:translationX="65dp" />
+
+</LinearLayout>

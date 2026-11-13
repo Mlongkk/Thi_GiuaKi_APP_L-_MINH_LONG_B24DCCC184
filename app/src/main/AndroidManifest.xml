@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thi_giuaki_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Quản Lý Thư Viện"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".BookManagementActivity"
+            android:label="Quản Lý Sách"
+            android:parentActivityName=".MainActivity" />
+            
+        <activity
+            android:name=".AddEditBookActivity"
+            android:label="Thông Tin Sách"
+            android:parentActivityName=".BookManagementActivity" />
+            
+        <activity
+            android:name=".BorrowReturnActivity"
+            android:label="Mượn &amp; Trả Sách"
+            android:parentActivityName=".MainActivity" />
+            
+        <activity
+            android:name=".SearchActivity"
+            android:label="Tìm Kiếm Sách"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>

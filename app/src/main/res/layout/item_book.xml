@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="10dp"
+    android:elevation="2dp"
+    android:padding="14dp">
+
+    <TextView
+        android:id="@+id/tvMaSach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã sách: S001"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvTenSach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên sách: Lập trình Android"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/tvTacGia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tác giả: Nguyễn Văn An"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/tvTheLoai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thể loại: Công nghệ thông tin"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/tvTrangThai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trạng thái: Có sẵn"
+        android:textStyle="bold"
+        android:layout_marginTop="6dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutBookActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Sửa"
+            android:layout_marginRight="8dp" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Xóa" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
